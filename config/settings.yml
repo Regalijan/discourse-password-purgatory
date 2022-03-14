@@ -1,0 +1,10 @@
+plugins:
+  enable_password_purgatory:
+    client: false
+    default: false
+
+  password_purgatory_chance:
+    client: false
+    default: 90
+    max: 100
+    min: 1

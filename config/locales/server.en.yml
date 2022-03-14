@@ -1,0 +1,22 @@
+en:
+  site_settings:
+    enable_password_purgatory: "Enable password purgatory"
+    password_purgatory_chance: "Percentage of attempts that go through password purgatory"
+
+  password_purgatory:
+    errors:
+      cockatiel: "must contain name of a specific bird species that is (usually) white/grayish and yellow."
+      divisible_by_3: "when stripped of non-numeric characters must be a number divisible by 3."
+      emoticon: "must contain at least 1 emoticon."
+      end_with_dog: "must end with dog."
+      generic: "is not valid because we said so."
+      german_umlaut: "must contain at least 1 uppercase German Umlaut."
+      greek: "must contain at least 1 Greek character."
+      griffin: "must contain at least 1 primary Griffin family character."
+      nordic: "must contain at least 1 Nordic character."
+      pi: "must contain at least 3 digits from the first 10 decimal places of Pi."
+      rick_astley: 'must contain the name of the author of "Never Gonna Give You Up".'
+      satellite: "must contain at least one named solarian planetary satellite."
+      simpsons: "must contain at least 1 primary Simpsons family character."
+      start_with_cat: "must start with cat."
+      zip_code: "must contain a United States ZIP code."
