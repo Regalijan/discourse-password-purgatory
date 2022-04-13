@@ -13,6 +13,7 @@ after_initialize do
     class PasswordValidator < ActiveModel::EachValidator
       def validate_each(record, attribute, value)
         return unless record.password_validation_required?
+        return unless SiteSetting.enable_password_purgatory?
         return if Random.rand(99) > SiteSetting.password_purgatory_chance - 1
 
         checks = [
